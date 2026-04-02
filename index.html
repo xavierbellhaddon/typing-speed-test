@@ -3,9 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
+    <div class="dashboard">
+      <div class="stats">
+        <div>
+          <span class="stat-label">WPM:</span>
+          <span class="stat-value wpm">0</span>
+        </div>
+        <div>
+          <span class="stat-label">Accuracy:</span>
+          <span class="stat-value accuracy">100%</span>
+        </div>
+        <div>
+          <span class="stat-label">Time:</span>
+          <span class="stat-value time">0:60</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div>
+          <button>Hard</button>
+          <div>
+            <div>Easy</div>
+            <div>Medium</div>
+            <div>Hard</div>
+          </div>
+        </div>
+        <div>
+          <button>Timed (60)</button>
+          <div>
+            <div>Timed (60)</div>
+            <div>Passage</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
